@@ -10,15 +10,16 @@ export const HeroScreen = () => {
   // Necesitamos usar el usememo porque si cambias el state del componente se volver a ejectuar el getHeroById
   const hero = useMemo(() => getHeroById(heroeId), [heroeId]);
 
+  if (!hero) {
+    return <Navigate to='/' />;
+  }
+
   const { superhero, publisher, alter_ego, first_appearance, characters } = hero;
 
   const handleReturn = () => {
     navigate(-1);
   };
 
-  if (!hero) {
-    return <Navigate to='/' />;
-  }
 
   return (
     <div className='row mt-5'>

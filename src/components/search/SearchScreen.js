@@ -1,7 +1,7 @@
 import { useNavigate, useLocation } from 'react-router-dom';
 import queryString from 'query-string';
 import { HeroCard } from '../hero/HeroCard';
-import { useForm } from '../hooks/useForm';
+import { useForm } from '../../hooks/useForm';
 import { getHeroesByName } from '../selectors/getHeroesByName';
 import { useMemo } from 'react';
 
