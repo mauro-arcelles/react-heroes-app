@@ -10,7 +10,7 @@ Project part of a React course from zero
 
 ## Application images
 ### Simple login where we forbid the access to principal routes
-![image](https://user-images.githubusercontent.com/83997911/162536363-2afa6aa3-2999-49c7-96eb-1adeea92cce0.png)
+![image](https://user-images.githubusercontent.com/83997911/162536963-0054b65b-2245-4648-9ce8-8f30280a1157.png)
 
 ### Heroes Main screen (Marvel Screen)
 ![image](https://user-images.githubusercontent.com/83997911/162536530-6abcdfb7-38b3-4849-826f-3958b76c22c2.png)
