@@ -1,5 +1,5 @@
 # HeroesApp
-Project part of a React course from zero
+Project as part of a React course from zero
 
 ### What I learned:
 - Hooks (useState, useEffect, useMemo, useReducer, useContext, etc.).
